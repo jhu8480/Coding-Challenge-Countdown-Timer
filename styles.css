@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background-image: url(assets/night-ocean.jpg);
+  background-image: url(night-ocean.jpg);
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
