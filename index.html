@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>Sign Up</li>
+      <li>Log In</li>
+    </ul>
+  </nav>
+  <h1 id="title-container">Hello!</h1>
+
+  <div class="countdown-container">
+    <div class="cd-el days-c">
+      <p class="big-text" id="days">0</p>
+      <span>day(s)</span>
+    </div>
+    <div class="cd-el hours-c">
+      <p class="big-text" id="hours">0</p>
+      <span>hour(s)</span>
+    </div>
+    <div class="cd-el minutes-c">
+      <p class="big-text" id="minutes">0</p>
+      <span>minute(s)</span>
+    </div>
+    <div class="cd-el seconds-c">
+      <p class="big-text" id="seconds">0</p>
+      <span>second(s)</span>
+    </div>
+  </div>
+
+  <div class="input-container">
+    <p>Name the date:</p>
+    <input type="textbox" id="textbox" placeholder="type in the title..." required maxlength="20" value="">
+    <p>Pick the date:</p>
+    <input type="date" id="date-picker" value="" required>
+    <button onclick="submit(); addTodo()">Submit</button>
+  </div>
+
+  <div id="tdc">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

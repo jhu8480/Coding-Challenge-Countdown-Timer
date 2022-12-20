@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  color:beige;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-image: url(assets/night-ocean.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+https://uidesigndaily.com/posts/sketch-countdown-timer-day-876
+*/
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.big-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 5rem;
+  width: 35px;
+}
+
+
+
+.cd-el {
+  text-align: center;
+}
+
+.cd-el span {
+  font-size: 1rem;
+}
+
+.input-container {
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+
+button {
+  display: block;
+  margin-top: 30px;
+  color: black;
+}
+
+#date-picker {
+  color: black;
+}
+
+#textbox {
+  color: black;
+}
+
+#tdc {
+  width: 400px;
+  margin-top: 20px;
+  overflow: hidden;
+  font-size: 14px;
+  display:flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .big-text {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0 5rem 0 8rem;
+    width: 35px;
+  }
+
+  .input-container {
+    margin-top: -0.5rem;
+    font-weight: bolder;
+  }
+
+  .input-container p {
+    font-size: 0.8rem;
+    margin: 5px auto;
+  }
+
+  button {
+    margin: 5px 10px 5px 0;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+
+  .countdown-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -25px;
+  }
+}
+
+
